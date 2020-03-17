@@ -1,0 +1,408 @@
+[v-cloak] {
+	display: none
+}
+
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+button,
+textarea,
+p,
+th,
+td {
+	margin: 0;
+	padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%
+}
+
+input,
+button,
+textarea,
+img {
+	vertical-align: middle;
+	outline: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+body {
+	color: #000;
+	font: 14px/24px "Microsoft YaHei", å¾®è½¯é›…é»‘, SimSun, tahoma, arial
+}
+
+img {
+	border: 0
+}
+
+li {
+	list-style: none
+}
+
+a {
+	outline: 0;
+	text-decoration: none;
+	color: #000
+}
+
+a:hover {
+	color: #fb6b84;
+	transition: color .3s, background-color .3s
+}
+
+.cl:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.cl {
+	*zoom: 1
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #999
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #999
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #999
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #999
+}
+
+* html,
+* html body {
+	background-image: url(about:blank);
+	background-attachment: fixed
+}
+
+.top-menu {
+	z-index: 900;
+	height: 45px;
+	line-height: 44px;
+	background: #ddd;
+	border-bottom: 1px solid #c4c4c4;
+	box-shadow: 0 2px 3px #ccc;
+	box-shadow: 0 2px 3px #ccc;
+	-moz-box-shadow: 0 2px 3px #ccc;
+	-webkit-box-shadow: 0 2px 3px #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	_position: absolute;
+	_bottom: auto;
+	_top: expression(eval(document.documentElement.scrollTop))
+}
+
+.top-menu .container {
+	width: 1200px;
+	margin: 0 auto
+}
+
+.search-top-menu .container {
+	width: 1250px
+}
+
+.download-app {
+	float: left;
+	width: 220px;
+	border-right: 1px dotted #cdcdcd;
+	height: 18px;
+	line-height: 18px;
+	padding: 8px 0;
+	margin: 5px 10px 5px 0
+}
+
+.download-app a {
+	float: left
+}
+
+.download-app a .iconfont {
+	font-size: 15px;
+	margin: 0 3px 0 0;
+	color: #8b8b8b
+}
+
+.download-app a:hover .iconfont {
+	color: #fb6b84
+}
+
+.download-app .app-android {
+	margin: 0 9px 0 0;
+	padding: 0 9px 0 0;
+	display: inline;
+	border-right: 1px solid #cacaca
+}
+
+.download-app .app-index {
+	background: 0;
+	padding: 0 0 0 9px;
+	margin: 0 0 0 9px;
+	border-left: 1px solid #cacaca
+}
+
+.menu-style li {
+	float: left
+}
+
+.menu-style li a {
+	display: block;
+	padding: 0 8px
+}
+
+.menu-style .more {
+	position: relative;
+	width: 72px;
+	_padding: 11px 0
+}
+
+.menu-style .more em,
+.guide-menu .more em {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 8px;
+	width: 10px;
+	height: 5px;
+	overflow: hidden;
+	zoom: 1;
+	transition: transform .3s;
+	-webkit-transition: transform .5s;
+	-moz-transition: transform .5s;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden
+}
+
+.menu-style .active:hover em,
+.guide-menu .active em {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg)
+}
+
+.menu-style .more em i,
+.guide-menu .more em i {
+	display: block;
+	width: 0;
+	height: 0;
+	border: 5px solid #ddd;
+	border-top-color: #000
+}
+
+.menu-style .active:hover em i,
+.guide-menu .active em i {
+	border-color: #fff;
+	border-top-color: #000
+}
+
+.menu-style .more .sub-menu {
+	display: none;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden
+}
+
+.menu-style .active {
+	background: #fff;
+	border-top: 2px solid #fb6b84;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	margin: 0 -1px
+}
+
+.menu-style .active .link-none {
+	margin: -2px 0 0
+}
+
+.menu-style .active .sub-menu {
+	z-index: 901;
+	line-height: 34px;
+	width: 72px;
+	padding: 0 0 6px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 34px;
+	border: 1px solid #efefef;
+	border-top: 0;
+	margin: 0 -1px
+}
+
+.guide-menu {
+	float: right
+}
+
+.guide-menu .column {
+	border-left: 1px dotted #cdcdcd;
+	float: left;
+	margin: 5px 0;
+	line-height: 34px;
+	padding-left: 10px;
+	display: inline;
+	margin: 5px 0 5px 10px
+}
+
+.guide-menu .column a {
+	display: inline-block
+}
+
+.guide-menu .bookcase {
+	position: relative;
+	border-right: 1px solid #ddd;
+	padding-right: 10px;
+	margin: 5px 0 5px 10px
+}
+
+.guide-menu .bookcase .my-book {
+	display: block;
+	float: left
+}
+
+.guide-menu .active {
+	background: #fff;
+	border-top: 2px solid #fb6b84 !important;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin: 0 0 5px 10px
+}
+
+.guide-menu .active .my-book {
+	margin-top: -2px
+}
+
+.guide-menu .username {
+	max-width: 70px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left
+}
+
+.mid-bar-search {
+	float: right;
+	height: 30px;
+	width: 200px;
+	padding: 7px 0;
+	overflow: hidden;
+	zoom: 1
+}
+
+.mid-bar-search .minisearch-text {
+	float: left;
+	width: 150px;
+	padding: 0 0 0 9px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #d3d3d3;
+	border-right: 0;
+	border-radius: 15px 0 0 15px;
+	-webkit-border-radius: 15px 0 0 15px;
+	-moz-border-radius: 15px 0 0 15px;
+	-ms-border-radius: 15px 0 0 15px
+}
+
+.mid-bar-search .search-btn-bar {
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	background-color: #fb6b84;
+	border-radius: 0 15px 15px 0;
+	-webkit-border-radius: 0 15px 15px 0;
+	-moz-border-radius: 0 15px 15px 0;
+	-ms-border-radius: 0 15px 15px 0
+}
+
+.mid-bar-search .search-btn-bar .iconfont {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	font-size: 20px;
+	line-height: 30px;
+	width: 40px;
+	text-align: center;
+	color: #fff
+}
+
+.mid-bar-search .search-btn-bar .minisearch-btn {
+	width: 40px;
+	height: 30px;
+	border: 0;
+	background: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	cursor: pointer
+}
+
+.forbidbtn,
+.forbidbtn:hover {
+	color: #c4c4c4;
+	border-color: #ddd;
+	cursor: not-allowed
+}
+
+.colorred {
+	color: red
+}
+
+.color1 {
+	color: #999
+}
+
+#alert_message_large {
+	z-index: 999999;
+	position: fixed;
+	left: 50%;
+	top: 40%;
+	margin: -35px 0 0 -260px;
+	width: 500px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 15px 10px;
+	background: #000;
+	filter: alpha(opacity=80);
+	opacity: .8;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px
+}
